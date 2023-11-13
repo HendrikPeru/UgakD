@@ -27,21 +27,30 @@ body {
     padding-right: 20px;
 }
 
-.main {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
+.paremal {
+    display: grid;
+    place-items: end;
+    padding-right: 20px;
 }
 
-.left {
-    width: 50%; 
+.vasakul {
+    display: grid;
+    place-items: start;
+    padding-right: 20px;
 }
 
-.right {
-    width: 50%; 
+section {
+    float: left;
+    margin: 0 1.5%;
+    width: 50%;
 }
 
+aside {
+    float: right;
+    margin: 0 1.5%;
+    width: 37%;
+}
+  
 @font-face {
     font-family: office;
     src: url(font.ttf);
