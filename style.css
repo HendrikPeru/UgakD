@@ -1,4 +1,8 @@
-body {background-color: #edefe2;}
+body {background-color: #edefe2; font-family: 'DM Serif Display', serif;}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+
 
 .left-section,
 .right-section {
@@ -21,4 +25,3 @@ height: 100%;
     justify-content: space-between;
     height: 100%; 
 }
-
