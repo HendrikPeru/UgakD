@@ -1,2 +1,0 @@
-# UgakD
-Veebilehe tegemine
