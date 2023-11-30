@@ -20,3 +20,11 @@
   .button:hover {
     background-color: #D4E7E3;
   }
+
+#muutuv-taust {
+   width: 100%; /* Võib olla ka muu laius/viis, olenevalt disainist */
+   height: 400px; /* Muuda vastavalt vajadusele */
+   background-size: cover;
+   background-position: center;
+   transition: background-image 0.5s ease-in-out; /* Üleminek efektide jaoks */
+}
