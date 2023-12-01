@@ -1,7 +1,6 @@
-var taustapildid = ['pilt1.jpg', 'pilt2.jpg', 'pilt3.jpg']; // Pane siia oma piltide URL-id
-
+var taustapildid = ['kontor1.jpg', 'kontor2.jpg', 'kontor3.jpg']; 
 var hetkePilt = 0;
-var intervalliPikkus = 5000; // Muuda vastavalt soovitud vahetuse ajale millisekundites
+var intervalliPikkus = 5000;
 
 function vahetaTaust() {
     document.getElementById('muutuv-taust').style.backgroundImage = 'url(' + taustapildid[hetkePilt] + ')';
