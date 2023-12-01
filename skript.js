@@ -1,4 +1,4 @@
-var taustapildid = ['kontor1.jpg', 'kontor2.jpg', 'kontor3.jpg']; 
+var taustapildid = ['kontor1.jpg', 'kontor2.jpg', 'kontor3.jpg', 'kontor4.jpg']; 
 var hetkePilt = 0;
 var intervalliPikkus = 5000;
 
