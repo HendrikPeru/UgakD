@@ -12,8 +12,8 @@
     text-align: center;
     font-size: 16px;
     transition: background-color 0.3s;
-    margin: 100px;
-    padding: 10px;
+    margin: 0;
+    padding: 0;
   }
   
 .tekstinupp{
@@ -52,6 +52,7 @@ body {
 .kiri {
   color: white;
   font-size: 36px;
+  font-family: 'Passion One', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -76,6 +77,7 @@ body {
 .läbipaistev-nupp .ikoon {
   font-size: 36px; /* Muuda vastavalt soovitud ikooni suurusele */
   color: #FFF; /* Ikooni värv */
+  font-family: 'Passion One', sans-serif;
 }
 
 .läbipaistev-nupp .tekst {
@@ -84,9 +86,10 @@ body {
   left: 0;
   width: 100%;
   padding: 10px;
-  background-color: #333; /* Tumeda tausta värv */
-  color: #FFF; /* Teksti värv */
-  font-size: 14px;
+  background-color: #DBD4C7; /* Tumeda tausta värv */
+  color: black; /* Teksti värv */
+  font-family: 'Passion One', sans-serif;
+  font-size: 20px;
   opacity: 0;
   transition: opacity 0.3s;
 }
