@@ -1,7 +1,5 @@
-.button {
+.nupp {
     display: flex;
-    top: 100px;
-    left: 200px;
     width: 150px;
     height: 50px;
     background-color: #B9CBC8;
@@ -14,13 +12,31 @@
     text-align: center;
     font-size: 16px;
     transition: background-color 0.3s;
-    margin: 0;
-    padding: 0;
-
+    margin: 100px;
+    padding: 10px;
   }
   
+.tekstinupp{
+  display: flex;
+  width: 500px;
+  height: 250px;
+  background-color: #B9CBC8;
+  color: black;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  margin: 0;
+  padding: 0;
 
-  .button:hover {
+}
+
+
+  .nupp:hover, .tekstinupp:hover {
     background-color: #D4E7E3;
     margin: 0;
     padding: 0;
@@ -35,6 +51,7 @@ body {
 
 .kiri {
   color: white;
+  font-size: 36px;
   margin: 0;
   padding: 0;
 }
@@ -45,4 +62,35 @@ body {
   background-size: cover;
   background-position: top;
   transition: background-image 0.5s ease-in-out;
+}
+
+.läbipaistev-nupp {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.läbipaistev-nupp .ikoon {
+  font-size: 36px; /* Muuda vastavalt soovitud ikooni suurusele */
+  color: #FFF; /* Ikooni värv */
+}
+
+.läbipaistev-nupp .tekst {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: #333; /* Tumeda tausta värv */
+  color: #FFF; /* Teksti värv */
+  font-size: 14px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.läbipaistev-nupp:hover .tekst {
+  opacity: 1;
 }
