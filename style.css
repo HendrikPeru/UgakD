@@ -46,6 +46,13 @@ header {
     height: auto;
 }
 
+.preambula {
+    font-family: 'Passion One', sans-serif;
+    font-size: 30px;
+    color: var(--tumesinine);
+    text-align: justify;
+    padding: 30px;
+}
 
 /* BODY OSA */
 
