@@ -1,0 +1,115 @@
+:root {
+    --tumesinine: #1E2555;
+    --helesinine: #4762de;
+    --helebeež: #E8E6DE;
+    --tumebeež: #DBD4C7;  
+}
+
+/* HEADERI OSA */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerkast {
+    background-color: var(--tumebeež);
+    padding: 2% 0;
+    width: 100%;
+}
+
+.lingid {text-align: center;}
+
+.lingid a {
+    margin-right: 60px;
+    font-family: 'Passion One', sans-serif;
+    font-size: 40px;
+    color: var(--tumesinine);
+    text-decoration: none;
+}
+
+.lingid b {
+    margin-right: 60px;
+    font-family: 'Passion One', sans-serif;
+    font-size: 40px;
+    color: var(--helesinine);
+    text-decoration: none;
+}
+
+.lingid a:hover {
+    color: var(--helesinine); 
+}
+
+.pilt {
+    width: 40%;
+    height: auto;
+}
+
+.preambula {
+    font-family: 'Passion One', sans-serif;
+    font-size: 30px;
+    color: var(--tumesinine);
+    text-align: justify;
+    padding: 30px;
+}
+
+/* BODY OSA */
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--helebeež);
+}
+
+.content {
+    margin: 0;
+    flex: 1;
+    font-family: 'Passion One', sans-serif;
+    font-size: 2.5vw;
+    color: var(--tumesinine)
+}
+
+.jaotus {
+    height: 100%;
+    width: 50%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    margin-bottom: 1%; 
+    position: absolute;
+    width: 40%;
+    height: auto;
+}
+
+.vasak {
+    left: 0;
+    text-align: justify;
+}
+
+.parem {
+    right: 0;
+    text-align: right;
+}
+
+
+#generate-button {
+    padding: 2.5% 3%;
+    font-family: 'Passion One', sans-serif;
+    font-size: 2vw;
+    background-color: var(--tumesinine);
+    color: var(--helebeež) !important;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#generate-button:hover {
+    background-color: var(--helesinine); 
+}
+
+.alapealkiri {
+    font-family: 'Passion One', sans-serif;
+    font-size: 3vw;
+    color: var(--helesinine);
+    font-size: 3.5vw   
+}
