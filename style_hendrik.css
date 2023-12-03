@@ -13,8 +13,8 @@
   font-size: 24px;
   font-family:'Passion One', sans-serif;
   transition: background-color 0.3s;
-  margin: 0;
-  padding: 0;
+  top: 250;
+  left: 750;
 }
 
 .tekstinupp{
@@ -32,16 +32,13 @@ text-align: center;
 font-size: 16px;
 font-family: 'Passion One', sans-serif;
 transition: background-color 0.3s;
-margin: 0;
-padding: 0;
-
+top: 50px;
+left: 750;
 }
 
 
 .nupp:hover, .tekstinupp:hover {
   background-color: #DBD4C7;
-  margin: 0;
-  padding: 0;
 }
 
 body {
@@ -53,8 +50,10 @@ padding: 0;
 
 .kiri {
 color: white;
-font-size: 36px;
+font-size: 128px;
 font-family: 'Passion One', sans-serif;
+align-items: center;
+text-align: center;
 margin: 0;
 padding: 0;
 }
