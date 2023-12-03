@@ -97,3 +97,15 @@ body {
 .läbipaistev-nupp:hover .tekst {
   opacity: 1;
 }
+
+.esimene-nupp {
+  /* Esimese nupu jaoks erinevad asukoha stiilid */
+  top: 50px; /* Muuda vastavalt soovitud asukohale */
+  left: 500px; /* Muuda vastavalt soovitud asukohale */
+}
+
+.teine-nupp {
+  /* Teise nupu jaoks erinevad asukoha stiilid */
+  top: 50px; /* Muuda vastavalt soovitud asukohale */
+  left: 700px; /* Muuda vastavalt soovitud asukohale */
+}
