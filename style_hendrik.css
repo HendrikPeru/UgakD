@@ -1,99 +1,83 @@
-.nupp {
-    display: flex;
-    width: 150px;
-    height: 50px;
-    background-color: #B9CBC8;
-    color: black;
-    text-decoration: none;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    align-items: center;
-    text-align: center;
-    font-size: 16px;
-    transition: background-color 0.3s;
-    margin: 0;
-    padding: 0;
-  }
-  
-.tekstinupp{
+.nupp{
   display: flex;
-  width: 500px;
-  height: 250px;
-  background-color: #B9CBC8;
-  color: black;
+  align-items: center;
+  justify-content: center;
   text-decoration: none;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  align-items: center;
-  text-align: center;
-  font-size: 16px;
+  font-family: 'Passion One', sans-serif;
   transition: background-color 0.3s;
-  margin: 0;
-  padding: 0;
-
-}
-
-
-  .nupp:hover, .tekstinupp:hover {
-    background-color: #D4E7E3;
-    margin: 0;
-    padding: 0;
-  }
-
-body {
-  margin: 0;
-  padding: 0;
-}
-
-
-
-.kiri {
+  position: fixed;
+  top: 175px;
+  width: 250px;
+  height: 75px;
+  background-color: transparent;
   color: white;
   font-size: 36px;
-  font-family: 'Passion One', sans-serif;
+  right: 20px;
+}
+
+.nupp:hover {
+  background-color: #DBD4C7;
+  color: black;
+}
+
+body {
+  background-image: url('kontor1.jpg');
+  background-position: top;
+  background-size: cover;
   margin: 0;
   padding: 0;
+}
+
+.kiri {
+color: white;
+font-size: 128px;
+font-family: 'Passion One', sans-serif;
+align-items: center;
+text-align: center;
+margin: 0;
+padding: 0;
 }
 
 #all {
-  width: 100vw;
-  height: 100vh;
-  background-size: cover;
-  background-position: top;
-  transition: background-image 0.5s ease-in-out;
+width: 100vw;
+height: 100vh;
+background-size: cover;
+background-position: top;
+transition: background-image 0.5s ease-in-out;
 }
 
 .läbipaistev-nupp {
-  position: relative;
-  display: inline-block;
-  padding: 10px 20px;
-  border: none;
-  background: transparent;
-  cursor: pointer;
+position: relative;
+display: inline-block;
+padding: 10px 20px;
+border: none;
+background: transparent;
+cursor: pointer;
 }
 
 .läbipaistev-nupp .ikoon {
-  font-size: 36px; /* Muuda vastavalt soovitud ikooni suurusele */
-  color: #FFF; /* Ikooni värv */
-  font-family: 'Passion One', sans-serif;
+font-size: 36px;
+color: #FFF;
+font-family: 'Passion One', sans-serif;
 }
 
 .läbipaistev-nupp .tekst {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  padding: 10px;
-  background-color: #DBD4C7; /* Tumeda tausta värv */
-  color: black; /* Teksti värv */
-  font-family: 'Passion One', sans-serif;
-  font-size: 20px;
-  opacity: 0;
-  transition: opacity 0.3s;
+position: absolute;
+top: 100%;
+left: 0;
+width: 100%;
+padding: 10px;
+background-color: #DBD4C7;
+color: black;
+font-family: 'Passion One', sans-serif;
+font-size: 20px;
+opacity: 0;
+transition: opacity 0.3s;
 }
 
 .läbipaistev-nupp:hover .tekst {
-  opacity: 1;
+opacity: 1;
 }
