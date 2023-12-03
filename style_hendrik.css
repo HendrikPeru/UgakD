@@ -107,11 +107,11 @@ body {
 .teine-nupp {
   /* Teise nupu jaoks erinevad asukoha stiilid */
   top: 50px; /* Muuda vastavalt soovitud asukohale */
-  left: 700px; /* Muuda vastavalt soovitud asukohale */
+  left: 750px; /* Muuda vastavalt soovitud asukohale */
 }
 
 .tekstiväli {
   /* Teise nupu jaoks erinevad asukoha stiilid */
-  top: 50px; /* Muuda vastavalt soovitud asukohale */
+  top: 150px; /* Muuda vastavalt soovitud asukohale */
   left: 100px; /* Muuda vastavalt soovitud asukohale */
 }
