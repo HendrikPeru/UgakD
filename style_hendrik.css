@@ -1,52 +1,35 @@
-.nupp {
+.nupp{
   display: flex;
-  width: 150px;
-  height: 50px;
-  background-color: transparent;
-  color: black;
+  align-items: center;
+  justify-content: center;
   text-decoration: none;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  align-items: center;
-  text-align: center;
-  font-size: 24px;
-  font-family:'Passion One', sans-serif;
+  font-family: 'Passion One', sans-serif;
   transition: background-color 0.3s;
-  top: 250;
-  left: 750;
+  position: fixed;
+  top: 175px;
+  width: 250px;
+  height: 75px;
+  background-color: transparent;
+  color: white;
+  font-size: 36px;
+  right: 20px;
 }
 
-.tekstinupp{
-display: flex;
-width: 500px;
-height: 250px;
-background-color: #DBD4C7;
-color: black;
-text-decoration: none;
-border: none;
-border-radius: 4px;
-cursor: pointer;
-align-items: center;
-text-align: center;
-font-size: 16px;
-font-family: 'Passion One', sans-serif;
-transition: background-color 0.3s;
-top: 50px;
-left: 750;
-}
-
-
-.nupp:hover, .tekstinupp:hover {
+.nupp:hover {
   background-color: #DBD4C7;
+  color: black;
 }
 
 body {
-margin: 0;
-padding: 0;
+  background-image: url('kontor1.jpg');
+  background-position: top;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
 }
-
-
 
 .kiri {
 color: white;
@@ -76,7 +59,7 @@ cursor: pointer;
 }
 
 .läbipaistev-nupp .ikoon {
-font-size: 36px; /* Muuda vastavalt soovitud ikooni suurusele */
+font-size: 36px;
 color: #FFF;
 font-family: 'Passion One', sans-serif;
 }
@@ -87,8 +70,8 @@ top: 100%;
 left: 0;
 width: 100%;
 padding: 10px;
-background-color: #DBD4C7; /* Tumeda tausta värv */
-color: black; /* Teksti värv */
+background-color: #DBD4C7;
+color: black;
 font-family: 'Passion One', sans-serif;
 font-size: 20px;
 opacity: 0;
