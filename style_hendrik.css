@@ -101,17 +101,17 @@ body {
 .esimene-nupp {
   /* Esimese nupu jaoks erinevad asukoha stiilid */
   top: 50px; /* Muuda vastavalt soovitud asukohale */
-  left: 500px; /* Muuda vastavalt soovitud asukohale */
+  left: 100px; /* Muuda vastavalt soovitud asukohale */
 }
 
 .teine-nupp {
   /* Teise nupu jaoks erinevad asukoha stiilid */
   top: 50px; /* Muuda vastavalt soovitud asukohale */
-  left: 750px; /* Muuda vastavalt soovitud asukohale */
+  left: 150px; /* Muuda vastavalt soovitud asukohale */
 }
 
 .tekstiväli {
   /* Teise nupu jaoks erinevad asukoha stiilid */
-  top: 150px; /* Muuda vastavalt soovitud asukohale */
-  left: 100px; /* Muuda vastavalt soovitud asukohale */
+  top: 50px; /* Muuda vastavalt soovitud asukohale */
+  left: 900px; /* Muuda vastavalt soovitud asukohale */
 }
