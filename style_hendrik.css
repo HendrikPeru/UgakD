@@ -1,4 +1,4 @@
-.nupp {
+/*.nupp {
     display: flex;
     width: 150px;
     height: 50px;
@@ -73,45 +73,98 @@ body {
   background: transparent;
   cursor: pointer;
 }
-
+*/
+/*
 .läbipaistev-nupp .ikoon {
-  font-size: 36px; /* Muuda vastavalt soovitud ikooni suurusele */
-  color: #FFF; /* Ikooni värv */
+  font-size: 36px; 
   font-family: 'Passion One', sans-serif;
 }
 
+/*
 .läbipaistev-nupp .tekst {
   position: absolute;
   top: 100%;
   left: 0;
   width: 100%;
   padding: 10px;
-  background-color: #DBD4C7; /* Tumeda tausta värv */
-  color: black; /* Teksti värv */
+  background-color: #DBD4C7; 
+  color: black; 
   font-family: 'Passion One', sans-serif;
   font-size: 20px;
   opacity: 0;
   transition: opacity 0.3s;
 }
+*/
 
+/*
 .läbipaistev-nupp:hover .tekst {
   opacity: 1;
 }
 
 .esimene-nupp {
-  /* Esimese nupu jaoks erinevad asukoha stiilid */
-  top: 50px; /* Muuda vastavalt soovitud asukohale */
-  left: 100px; /* Muuda vastavalt soovitud asukohale */
+  top: 50px;
+  left: 100px; 
 }
 
 .teine-nupp {
-  /* Teise nupu jaoks erinevad asukoha stiilid */
-  top: 50px; /* Muuda vastavalt soovitud asukohale */
-  left: 150px; /* Muuda vastavalt soovitud asukohale */
+  top: 50px;
+  left: 150px; 
 }
 
 .tekstiväli {
-  /* Teise nupu jaoks erinevad asukoha stiilid */
-  top: 50px; /* Muuda vastavalt soovitud asukohale */
-  left: 900px; /* Muuda vastavalt soovitud asukohale */
+  top: 50px; 
+  left: 900px;
+}
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nupp {
+  display: inline-block;
+  position: absolute;
+  padding: 10px 20px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-family: 'Passion One', sans-serif;
+}
+
+.nupp .ikoon {
+  font-size: 36px;
+  color: #FFF;
+}
+
+.nupp .tekst {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: #DBD4C7;
+  color: black;
+  font-size: 20px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.nupp:hover .tekst {
+  opacity: 1;
+}
+
+.esimene-nupp {
+  top: 50px;
+  left: 100px;
+}
+
+.teine-nupp {
+  top: 50px;
+  left: 150px;
+}
+
+.tekstiväli {
+  top: 50px;
+  left: 900px;
 }
