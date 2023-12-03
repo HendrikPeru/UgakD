@@ -74,26 +74,21 @@ body {
   cursor: pointer;
 }
 
-.läbipaistev-nupp .ikoon {
-  font-size: 36px; /* Muuda vastavalt soovitud ikooni suurusele */
+.läbipaistev-nupp .tekst {
+  font-size: 36px; /* Teksti suurus */
+  color: #FFF; /* Teksti värv */
+  font-family: 'Passion One', sans-serif;
+  position: relative;
+  z-index: 1;
+}
+
+.läbipaistev-nupp::before {
+  content: "I"; /* Lisa siia soovitud ikooni kood või sümbol */
+  font-size: 36px; /* Ikooni suurus */
   color: #FFF; /* Ikooni värv */
   font-family: 'Passion One', sans-serif;
-}
-
-.läbipaistev-nupp .tekst {
   position: absolute;
-  top: 100%;
+  top: 0;
   left: 0;
-  width: 100%;
-  padding: 10px;
-  background-color: #DBD4C7; /* Tumeda tausta värv */
-  color: black; /* Teksti värv */
-  font-family: 'Passion One', sans-serif;
-  font-size: 20px;
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-
-.läbipaistev-nupp:hover .tekst {
-  opacity: 1;
+  z-index: 0;
 }
