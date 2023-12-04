@@ -1,4 +1,7 @@
-// OFFICE QUOTIDD
+// JAVA SCRIPTI ABIL KUVAB TEINE LEHT JUHUSLIKU TSITAADI 'THE OFFICE' SARJAST 
+// - JAVA SCRIPT LOODUD COPILOT EXTENSIONI ABIGA EHK KASUTADES CHATGPT 3.5 MOOTORIT
+
+// 'THE OFFICE' TSITAATIDE LIST
 const quotes = [
     "Sometimes I’ll start a sentence and I don’t even know where it’s going. I just hope I find it along the way. – Michael Scott (Hooaeg 5, The Duel)",
     "I am Beyoncé, always. – Michael Scott (Hooaeg 3, Beach Games)",    
@@ -11,26 +14,26 @@ const quotes = [
     "’R' is among the most menacing of sounds. That's why they call it 'murder' and not 'mukduk.'  — Dwight Schrute (Hooaeg 6, Mafia)",
 ];
 
-// INDEX
+// FUNKTSIOON LEIAB QUOTES LISTIST SUVALISE TSITAADI INDEKSI
 function getRandomIndex() {
     return Math.floor(Math.random() * quotes.length);
 }
 
-// Function to retrieve a random quote
+// FUNKTSIOON LEIAB EELMISE FUNKTSIOONI ABIL LISTIST SUVALISE TSITAADI KINDLA INDEKSIGA
 function getRandomQuote() {
     const randomIndex = getRandomIndex();
     return quotes[randomIndex];
 }
 
-// Function to display the random quote on the website
+// FUNKTIOON VÕIMALDAB VEEBILEHEL KINDLAT TSITAATI KUVADA 
 function displayRandomQuote() {
     const quoteContainer = document.getElementById("quote");
     quoteContainer.textContent = getRandomQuote();
 }
 
-// Generate the initial random quote
+// LOOB ESIALGSE SUVALISE TSITAADI, MIDA KASUTAJA NÄEB
 displayRandomQuote();
 
-// Add event listener to the button
+// FUNKTSIOON VÕIMALDAB NUPUVAJUTUSEGA UUS TSITAAT VEEBILEHELE KUVADA
 const generateButton = document.getElementById("generate-button");
 generateButton.addEventListener("click", displayRandomQuote);
